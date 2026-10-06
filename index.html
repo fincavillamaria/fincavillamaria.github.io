@@ -354,7 +354,7 @@
       const saldo = document.getElementById('saldoPendiente').value || '0';
       const totalServicio = document.getElementById('valorTotalServicio').value || '0';
 
-      document.getElementById('lblFinca').innerText = `FINCA VILLA MARIA${document.getElementById('numFinca').value}.`;
+      document.getElementById('lblFinca').innerText = `${document.getElementById('numFinca').value}.`;
       document.getElementById('lblNumFincaDetalle').innerText = document.getElementById('numFinca').value;
       document.getElementById('lblUbicacion').innerText = document.getElementById('ubicacion').value;
       document.getElementById('lblFechaEmision').innerText = formatearFecha(document.getElementById('fechaEmision').value);
